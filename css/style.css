@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 html {
-    background: #fff;
+    background: #D9C1DB;
 }
 
 body {
@@ -22,7 +22,27 @@ header {
     align-items: center;
 }
 
-colors {
+nav ul {
+    background: #8F8B7E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 14px 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.6em;
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+color {
     background-color: #DBDAD7;
     background-color: #8F8B7E;
     background-color: #C1DBD5;
